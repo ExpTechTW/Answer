@@ -13,6 +13,11 @@
 
 ## 文檔
 - [網站](http://150.117.110.118/answer/)
+- 採用 HTTP POST 與 [API服務器](https://github.com/ExpTechTW/API) 交互 可架設於任意 網頁伺服器
+
+## 注意
+- 第一次加載網頁需較長時間 請耐心等待
+- 此服務 依賴 [API服務器](https://github.com/ExpTechTW/API)
 
 ## 貢獻者
  - 程式開發
