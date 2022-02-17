@@ -1,16 +1,21 @@
-# answer
+# 模板
+<img alt="Discord" src="https://img.shields.io/discord/926545182407688273">
 
-A new Flutter project.
+------
 
-## Getting Started
+這是一個 ExpTech Github 模板
 
-This project is a starting point for a Flutter application.
+## 貢獻者
+ - 程式開發
+   - whes1015
 
-A few resources to get you started if this is your first Flutter project:
+------
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 發佈規則
+- 如果新版本中有錯誤，且尚未列出，請將錯誤資訊提交到 ```issue```
+- 如果您使用任何形式的辱罵性或貶義性語言給其他用戶，您將永遠被封禁！
+- 不要發送重複無意義內容至 ```issue```，否則您將永遠被封禁！
+- 若有任何問題或建議，歡迎提出
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 合作
+- 若有任何可以改進的地方，歡迎使用 ```Pull requests``` 來提交
