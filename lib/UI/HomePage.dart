@@ -56,10 +56,20 @@ class HomePage extends StatelessWidget {
                 height: 20,
               ),
               CupertinoButton(
-                color: Colors.blue,
-                child: const Text("開始搶答"),
+                color: Colors.green,
+                child: const Text("更新日誌"),
                 onPressed: () async {
-                  await launch('');
+                  await launch('https://github.com/ExpTechTW/Answer/releases');
+                },
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              CupertinoButton(
+                color: Colors.black,
+                child: const Text("  Github  "),
+                onPressed: () async {
+                  await launch('https://github.com/ExpTechTW/Answer');
                 },
               ),
               const SizedBox(

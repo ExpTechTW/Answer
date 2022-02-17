@@ -38,11 +38,10 @@ class _ServerPage extends State<ServerPage> {
                 time = data["response"][i]["time"];
               }
               _children.add(Text(
+                  (i+1).toString()+" - "+
                 data["response"][i]["name"] +
                     " - 時間(ms): " +
-                    (data["response"][i]["time"] - time).toString() +
-                    " - 名次: " +
-                    (i + 1).toString(),
+                    (data["response"][i]["time"] - time).toString() ,
                 style: const TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.normal,
@@ -66,6 +65,7 @@ class _ServerPage extends State<ServerPage> {
           Visibility(
             visible: _num,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   _number.toString(),
@@ -78,7 +78,7 @@ class _ServerPage extends State<ServerPage> {
                   "數字消失後即可搶答",
                   style: TextStyle(
                     fontWeight: FontWeight.normal,
-                    fontSize: 50,
+                    fontSize: 40,
                   ),
                 ),
               ],
